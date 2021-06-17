@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+ padding: 15px;
+}
+
+.header-logo {
+    width: 210px;
+    padding: auto 10px;
+}
+
+.header-bar {
+   float: right;
+}
+
+#header-menu li {
+   display: inline-block;
+   padding: 10px 15px;
+   font-size: 23px;
+}
+
+.intro-section {
+    background-image: url('../images/landing.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 796px;
+    width: 100%;
+}
+
+.intro-content {
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF;
+}
+
+.intro-content h1 {
+    margin: 0;
+    font-size: 60px;
+    padding-top: 300px;
+}
+
+.intro-content p {
+  font-size: 25px;
+}
+
+
+.card-section {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;   
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 0.5em;
+}
+
+.card-section h2{
+    font-size: 45px;
+}
+
+.card-logo{
+    width: 100px;
+}
+
+.card-section article{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-section article>h3 {
+    color: #00B172;
+    font-size: 28px;
+}
+
+.card-section article>p {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #00B172;
+    color: #FFF;
+    width: 85%;
+    height: 800px;
+    margin: 0 auto 50px;
+
+}
+
+.footer-items {
+    vertical-align: middle;
+    margin: auto;
+}
+
+.items {
+    width: 30%;
+    margin-left: 60px;
+    top: 0%;
+}
+
+.footer h2{
+    font-size: 2.3rem;
+    text-decoration: underline #FFF;
+    text-underline-offset: 0.3em;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+    color: #FFF;
+    margin-left: 50px;
+    padding-top: 50px;   
+   
+}  
+
+.items>h3{
+    font-size: 2rem;
+    color: #FFF;
+    width: 15%;
+    font-weight: bold;
+}
+
+.items>p {
+    font-size: 1.3rem;
+    color: #FFF;
+    margin-top: 0;
+    width: 100%;
+}
+
+.kanye {
+    display: inline-flex;
+}
+
+
+.spotify-icon {
+    top: 0%;
+    width: 12%;
+    margin:  auto;
+}
+
+.app-phone {
+    width: 25%; 
+    margin: auto; 
+}
